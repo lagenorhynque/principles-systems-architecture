@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [prismatic/schema "1.1.6"]]
   :source-paths ["src/clj"]
-  :java-source-paths ["src/java"])
+  :java-source-paths ["src/java"]
+  :profiles {:dev {:source-paths ["dev/clj"]}})
