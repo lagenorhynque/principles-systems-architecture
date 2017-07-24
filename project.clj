@@ -5,5 +5,5 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [prismatic/schema "1.1.6"]]
-  :source-paths ["src/main/clj"]
-  :java-source-paths ["src/main/java"])
+  :source-paths ["src/clj"]
+  :java-source-paths ["src/java"])
