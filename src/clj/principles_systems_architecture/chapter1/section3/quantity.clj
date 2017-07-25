@@ -11,8 +11,8 @@
   10)
 
 (s/defrecord Quantity
-    [value :- Long
-     discountable? :- s/Bool])
+             [value :- Long
+              discountable? :- s/Bool])
 
 (s/defn quantity :- Quantity
   [value :- Long]

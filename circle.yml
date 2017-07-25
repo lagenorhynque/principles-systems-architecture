@@ -1,0 +1,7 @@
+dependencies:
+  override:
+    - lein deps
+
+test:
+  override:
+    - cd taskdriver_batch; lein lint

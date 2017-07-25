@@ -4,7 +4,7 @@
   (:import (principles_systems_architecture.chapter1.section3.quantity Quantity)))
 
 (s/defrecord Money
-    [value :- Long])
+             [value :- Long])
 
 (s/defn money :- Money
   [value :- Long]
