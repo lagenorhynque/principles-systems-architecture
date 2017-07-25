@@ -1,5 +1,6 @@
 (ns principles-systems-architecture.chapter1.section3.money
-  (:require [schema.core :as s])
+  (:require [principles-systems-architecture.chapter1.section3.quantity]
+            [schema.core :as s])
   (:import (principles_systems_architecture.chapter1.section3.quantity Quantity)))
 
 (s/defrecord Money
