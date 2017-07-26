@@ -21,7 +21,7 @@
 (s/defn remove-if-exist :- Customers
   [cs :- Customers
    c :- Customer]
-  (customers (remove #{c} (:customers cs))))
+  (customers (vec (remove #{c} (:customers cs)))))
 
 (s/defn important-customers :- Customers
   [_ :- Customers]
