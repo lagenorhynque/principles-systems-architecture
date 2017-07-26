@@ -1,17 +1,17 @@
 package principles_systems_architecture.chapter1.section3;
 
-public class Money {
+class Money {
     final int value;
 
-    public Money(int value) {
+    Money(int value) {
         this.value = value;
     }
 
-    public Money minus(Money other) {
+    Money minus(Money other) {
         return new Money(this.value - other.value);
     }
 
-    public Money multiply(Quantity quantity) {
+    Money multiply(Quantity quantity) {
         return new Money(this.value * quantity.value);
     }
 

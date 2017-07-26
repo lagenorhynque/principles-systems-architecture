@@ -1,16 +1,16 @@
 package principles_systems_architecture.chapter1.section2;
 
-public class ShippingCost {
-    public static final int MINIMUM_FOR_FREE = 3000;
-    public static final int COST = 500;
+class ShippingCost {
+    static final int MINIMUM_FOR_FREE = 3000;
+    static final int COST = 500;
 
     final int basePrice;
 
-    public ShippingCost(int basePrice) {
+    ShippingCost(int basePrice) {
         this.basePrice = basePrice;
     }
 
-    public int amount() {
+    int amount() {
         if (this.basePrice < MINIMUM_FOR_FREE) return COST;
         return 0;
     }
