@@ -1,6 +1,9 @@
 package principles_systems_architecture.chapter1.section3;
 
-/* 小さなクラスでわかりやすく安全に */
+/*
+ * CHAPTER 1: 小さくまとめてわかりやすくする
+ * 小さなクラスでわかりやすく安全に
+ */
 
 public class Main {
     public static void main(String[] args) {

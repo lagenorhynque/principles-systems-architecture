@@ -2,6 +2,7 @@
   (:require [principles-systems-architecture.chapter1.section2.shipping-cost :as shipping-cost]
             [schema.core :as s]))
 
+;;; CHAPTER 1: 小さくまとめてわかりやすくする
 ;;; プログラムの変更が楽になる書き方
 
 (s/defn shipping-cost :- Long

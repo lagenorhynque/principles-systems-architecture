@@ -2,6 +2,7 @@
   (:require [principles-systems-architecture.chapter1.section4.customer :as customer]
             [schema.core :as s]))
 
+;;; CHAPTER 1: 小さくまとめてわかりやすくする
 ;;; 複雑さを閉じ込める
 
 (defn execute1 []

@@ -1,6 +1,9 @@
 package principles_systems_architecture.chapter1.section2;
 
-/* プログラムの変更が楽になる書き方 */
+/*
+ * CHAPTER 1: 小さくまとめてわかりやすくする
+ * プログラムの変更が楽になる書き方
+ */
 
 public class Main {
     public static void main(String[] args) {

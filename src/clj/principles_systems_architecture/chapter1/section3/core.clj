@@ -5,6 +5,7 @@
   (:import (principles_systems_architecture.chapter1.section3.money Money)
            (principles_systems_architecture.chapter1.section3.quantity Quantity)))
 
+;;; CHAPTER 1: 小さくまとめてわかりやすくする
 ;;; 小さなクラスでわかりやすく安全に
 
 (defn execute1 []

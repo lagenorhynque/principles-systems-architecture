@@ -1,6 +1,9 @@
 package principles_systems_architecture.chapter1.section4;
 
-/* 複雑さを閉じ込める */
+/*
+ * CHAPTER 1: 小さくまとめてわかりやすくする
+ * 複雑さを閉じ込める
+ */
 
 public class Main {
     public static void main(String[] args) {
