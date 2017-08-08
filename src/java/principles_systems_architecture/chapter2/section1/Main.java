@@ -12,5 +12,8 @@ public class Main {
     }
 
     void execute1() {
+        StateTransitions stateTransitions = new StateTransitions();
+        System.out.println("stateTransitions.canTransit(State.審査中, State.承認済): "
+            + stateTransitions.canTransit(State.審査中, State.承認済));
     }
 }
