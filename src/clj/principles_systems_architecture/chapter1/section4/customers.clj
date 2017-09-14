@@ -4,7 +4,7 @@
   (:import (principles_systems_architecture.chapter1.section4.customer Customer)))
 
 (s/defrecord Customers
-    [customers :- [Customer]])
+             [customers :- [Customer]])
 
 (s/defn customers :- Customers
   ([]
