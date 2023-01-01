@@ -1,10 +1,13 @@
-(ns principles-systems-architecture.chapter1.section4.customers
-  (:require [principles-systems-architecture.chapter1.section4.customer :as customer]
-            [schema.core :as s])
-  (:import (principles_systems_architecture.chapter1.section4.customer Customer)))
+(ns lagenorhynque.principles-systems-architecture.chapter1.section4.customers
+  (:require
+   [lagenorhynque.principles-systems-architecture.chapter1.section4.customer :as customer]
+   [schema.core :as s])
+  (:import
+   (lagenorhynque.principles_systems_architecture.chapter1.section4.customer
+    Customer)))
 
 (s/defrecord Customers
-             [customers :- [Customer]])
+  [customers :- [Customer]])
 
 (s/defn customers :- Customers
   ([]

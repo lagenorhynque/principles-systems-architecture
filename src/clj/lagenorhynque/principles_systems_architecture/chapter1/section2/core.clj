@@ -1,6 +1,7 @@
-(ns principles-systems-architecture.chapter1.section2.core
-  (:require [principles-systems-architecture.chapter1.section2.shipping-cost :as shipping-cost]
-            [schema.core :as s]))
+(ns lagenorhynque.principles-systems-architecture.chapter1.section2.core
+  (:require
+   [lagenorhynque.principles-systems-architecture.chapter1.section2.shipping-cost :as shipping-cost]
+   [schema.core :as s]))
 
 ;;; CHAPTER 1: 小さくまとめてわかりやすくする
 ;;; プログラムの変更が楽になる書き方

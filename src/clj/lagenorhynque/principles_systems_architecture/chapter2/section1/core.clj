@@ -1,6 +1,7 @@
-(ns principles-systems-architecture.chapter2.section1.core
-  (:require [principles-systems-architecture.chapter2.section1.state :as state]
-            [schema.core :as s]))
+(ns lagenorhynque.principles-systems-architecture.chapter2.section1.core
+  (:require
+   [lagenorhynque.principles-systems-architecture.chapter2.section1.state :as state]
+   [schema.core :as s]))
 
 ;;; CHAPTER 2: 場合分けのロジックを整理する
 ;;; プログラムを複雑にする「場合分け」のコード

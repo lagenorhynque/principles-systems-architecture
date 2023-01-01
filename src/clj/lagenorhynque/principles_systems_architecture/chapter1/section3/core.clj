@@ -1,9 +1,13 @@
-(ns principles-systems-architecture.chapter1.section3.core
-  (:require [principles-systems-architecture.chapter1.section3.money :as money]
-            [principles-systems-architecture.chapter1.section3.quantity :as quantity]
-            [schema.core :as s])
-  (:import (principles_systems_architecture.chapter1.section3.money Money)
-           (principles_systems_architecture.chapter1.section3.quantity Quantity)))
+(ns lagenorhynque.principles-systems-architecture.chapter1.section3.core
+  (:require
+   [lagenorhynque.principles-systems-architecture.chapter1.section3.money :as money]
+   [lagenorhynque.principles-systems-architecture.chapter1.section3.quantity :as quantity]
+   [schema.core :as s])
+  (:import
+   (lagenorhynque.principles_systems_architecture.chapter1.section3.money
+    Money)
+   (lagenorhynque.principles_systems_architecture.chapter1.section3.quantity
+    Quantity)))
 
 ;;; CHAPTER 1: 小さくまとめてわかりやすくする
 ;;; 小さなクラスでわかりやすく安全に

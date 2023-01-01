@@ -1,5 +1,6 @@
-(ns principles-systems-architecture.chapter2.section1.state
-  (:require [schema.core :as s]))
+(ns lagenorhynque.principles-systems-architecture.chapter2.section1.state
+  (:require
+   [schema.core :as s]))
 
 (def State
   (s/enum :審査中
@@ -9,7 +10,8 @@
           :差し戻し中
           :中断中))
 
-(s/def allowed :- {State #{State}}
+(s/def allowed
+  :- {State #{State}}
   {:審査中 #{:承認済 :差し戻し中}
    :差し戻し中 #{:審査中 :終了}
    :承認済 #{:実施中 :終了}

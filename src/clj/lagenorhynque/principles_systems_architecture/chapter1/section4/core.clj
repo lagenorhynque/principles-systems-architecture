@@ -1,7 +1,8 @@
-(ns principles-systems-architecture.chapter1.section4.core
-  (:require [principles-systems-architecture.chapter1.section4.customer :as customer]
-            [principles-systems-architecture.chapter1.section4.customers :as customers]
-            [schema.core :as s]))
+(ns lagenorhynque.principles-systems-architecture.chapter1.section4.core
+  (:require
+   [lagenorhynque.principles-systems-architecture.chapter1.section4.customer :as customer]
+   [lagenorhynque.principles-systems-architecture.chapter1.section4.customers :as customers]
+   [schema.core :as s]))
 
 ;;; CHAPTER 1: 小さくまとめてわかりやすくする
 ;;; 複雑さを閉じ込める

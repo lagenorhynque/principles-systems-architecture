@@ -1,18 +1,22 @@
-(ns principles-systems-architecture.chapter1.section3.quantity
-  (:require [schema.core :as s]))
+(ns lagenorhynque.principles-systems-architecture.chapter1.section3.quantity
+  (:require
+   [schema.core :as s]))
 
-(s/def minimum :- Long
+(s/def minimum
+  :- Long
   1)
 
-(s/def maximum :- Long
+(s/def maximum
+  :- Long
   100)
 
-(s/def minimum-for-discount :- Long
+(s/def minimum-for-discount
+  :- Long
   10)
 
 (s/defrecord Quantity
-             [value :- Long
-              discountable? :- s/Bool])
+  [value :- Long
+   discountable? :- s/Bool])
 
 (s/defn quantity :- Quantity
   [value :- Long]
